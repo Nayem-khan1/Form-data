@@ -32,7 +32,7 @@ const App = () => {
         <br/>
         <input onChange={() => {inputOnChange("gender", "Female")}} checked = {FormData.gender === "Female"} type="radio" name="gender" id="" />Female
         <br/>
-        <input type="Submit" value="Submit" />
+        <input type="Submit" value="Submit your Information" />
       </form>
     </div>
   );
